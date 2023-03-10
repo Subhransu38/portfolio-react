@@ -1,0 +1,176 @@
+.contact-me {
+  position: relative;
+  padding: 100px 100px;
+}
+
+.contact-me .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.contact-me .title h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+
+.contact {
+  padding: 40px;
+  background: #222;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ff2562;
+}
+
+.box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas:
+    "form info"
+    "form map";
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* form */
+.form-box {
+  position: relative;
+  width: 100%;
+}
+.form-box .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.form-box .row100 .input-box {
+  width: 100%;
+}
+
+.input-box span {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.input-box input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #ff2562;
+}
+
+.input-box textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #ff2562;
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 10px;
+}
+.input-box input[type="submit"] {
+  background: #ff2562;
+  color: #fff;
+  border: none;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+
+.input-box input[type="submit"]:hover {
+  background: #fff;
+  color: #ff2562;
+}
+
+.input-box ::placeholder {
+  color: #999;
+}
+
+#error-message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #ff2562;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+/* info */
+
+.info {
+  background: #ff2562;
+}
+
+.info h3 {
+  color: #fff;
+}
+
+.info .info-box div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info .info-box div span {
+  min-width: 40px;
+  height: 40px;
+  color: #ff2562;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info .info-box div p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.info .info-box div a {
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding-right: 5px;
+}
+/* map */
+.map {
+  padding: 0;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -6,29 +8,29 @@ function Navbar() {
       <nav>
         <ul class="nav-bar">
           <li>
-            <a className="nav-link" href="index.html">
+            <Link className="nav-link" to="/">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="about.html">
+            <Link className="nav-link" to="/about">
               ABOUT
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="skills.html">
+            <Link className="nav-link" to="/skill">
               SKILL
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="projects.html">
+            <Link className="nav-link" to="/project">
               PROJECT
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="nav-link" href="contact.html">
+            <Link className="nav-link" to="/contact">
               CONTACT
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

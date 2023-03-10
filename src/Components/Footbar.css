@@ -1,0 +1,31 @@
+.footerbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #ff2562;
+}
+
+.footerbar .social-link {
+  display: flex;
+  align-items: center;
+}
+.footerbar .social-link li {
+  list-style: none;
+  padding: 5px 10px 5px 10px;
+}
+.copy {
+  margin-right: auto;
+}
+.footerbar .social-link li p {
+  font-size: 0.9em;
+  color: #ccc;
+  font-weight: 700;
+}
+.footerbar .social-link li a {
+  font-size: 1.5em;
+  color: #fff;
+}
+.footerbar .social-link li a:hover {
+  color: #fff;
+}

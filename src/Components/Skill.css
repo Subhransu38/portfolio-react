@@ -1,0 +1,62 @@
+.my-skill {
+  position: relative;
+  width: 100%;
+  padding: 100px 100px;
+}
+
+.skill {
+  padding: 40px;
+  background: #222;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+  border: 5px solid #ff2562;
+  border-radius: 20px;
+}
+
+.skill-box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.bar {
+  background-color: #ff2562;
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.js-bar {
+  width: 80%;
+}
+.react-bar {
+  width: 60%;
+}
+.html-bar {
+  width: 90%;
+}
+.css-bar {
+  width: 80%;
+}
+.mysql-bar {
+  width: 70%;
+}
+
+.git-bar {
+  width: 70%;
+}
+
+.bar-text {
+  color: #fff;
+  font-weight: 700;
+  padding-left: 10px;
+}
