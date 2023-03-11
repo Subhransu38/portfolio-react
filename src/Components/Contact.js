@@ -80,7 +80,7 @@ function Contact() {
                   <ion-icon name="call"></ion-icon>
                 </span>
                 <a href="tel:+917894655185">+91 7894655185</a>
-                <a href="tel:+917847038595">+91 7847038595</a>
+                {/* <a href="tel:+917847038595">+91 7847038595</a> */}
               </div>
               <div>
                 <span>
